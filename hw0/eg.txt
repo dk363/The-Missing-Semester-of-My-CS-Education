@@ -1,0 +1,6 @@
+ssh myserver 'journalctl -u sshd -b-1 | grep "Disconnected from"' \
+  | sed -E 's/.*Disconnected from .* user (.*) [^ ]+ port.*/\1/' \
+  | sort | uniq -c \
+  | sort -nk1,1 | tail -n10 \
+  | awk '{print $2}' | paste -sd,
+postgres,mysql,oracle,dell,ubuntu,inspur,test,admin,user,root

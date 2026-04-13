@@ -1,0 +1,8 @@
+greeting.py
+pyproject.toml
+greeting_hsu_kuangdi.egg-info/PKG-INFO
+greeting_hsu_kuangdi.egg-info/SOURCES.txt
+greeting_hsu_kuangdi.egg-info/dependency_links.txt
+greeting_hsu_kuangdi.egg-info/entry_points.txt
+greeting_hsu_kuangdi.egg-info/requires.txt
+greeting_hsu_kuangdi.egg-info/top_level.txt

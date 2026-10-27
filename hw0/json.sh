@@ -1,1 +1,0 @@
-curl https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json | jq '.[] | select(.version > 6.00) | .name'

@@ -1,5 +1,11 @@
-#!/bin/bash
+#!usr/bin/bash
 
-curr_path="$PWD"
+marco() {
+    curr_path=$(pwd)
+    echo "current path is $curr_path"
+    export curr_path
+}
 
-export curr_path
+polo() {
+    cd $curr_path
+}
